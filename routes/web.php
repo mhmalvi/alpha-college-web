@@ -32,7 +32,7 @@ Route::get('/RII30815-Certificate-III-in-Civil-Construction-Plant-Operations', [
 
 Route::get('/download/{fileName}', [CourseController::class, 'downloadQualification'])->name('qualificationFile');
 
-Route::post('upload', [AdminBlogController::class, 'fileUpload']);
+Route::post('/upload', [AdminBlogController::class, 'fileUpload']);
 
 /**
  * Admin Routes

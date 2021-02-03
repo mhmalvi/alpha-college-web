@@ -27,6 +27,12 @@
                 <h3>Welcome Back!</h3>
                 <p>Login to continue</p>
             </div>
+            <!-- Validation Errors -->
+            @if ($errors->any())
+                @foreach ($errors->all() as $error)
+                    <small class= 'text-sm text-danger'>{{ $error }}</small>
+                @endforeach
+            @endif
             <form class="m-t" role="form" method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="form-group">
