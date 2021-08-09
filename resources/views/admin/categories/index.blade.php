@@ -151,8 +151,7 @@
         $(document).ready(function(){
             $('.del').on('click', function(){
                 var id = $(this).data('id');
-                // $('.dataTables-example').DataTable().ajax.reload();
-
+                
                 $.ajaxSetup({
                     headers: {
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
