@@ -1,6 +1,8 @@
 <!-- repo-card -->
 ![alpha-college-web](docs/assets/social-card.png)
 
+![alpha-college-web — architecture](docs/assets/architecture.png)
+
 # Alpha College Web
 
 The official website and admin portal for **Alpha College**, built with Laravel 8 and Jetstream. This platform provides a public-facing college website with blog management, course listings, and an authenticated administration panel.
